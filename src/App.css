@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  min-width: 360px;
+  width: 70%;
+  line-height: 2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  margin: 5px 0;
+  padding: 5px;
+  line-height: 1.1;
+  font-size: 1.3rem;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 4px 4px 5px 2px black;
+}
+
+.form span {
+  text-align: right;
+}
+
+.form span a {
+  text-decoration: underline;
+  color: white;
+}
+
+.message{
+  font-size: 1rem;
+
+
+}
+
+.card {
+  padding: 15px;
+}
+
+.card h1 {
+  font-size: 1.2rem;
+}
+
+.password {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 4px 4px 5px 2px black;
+  transition: all 0.5s;
+}
+
+button:hover{
+  background-color: blue;
+}
